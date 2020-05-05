@@ -16,13 +16,10 @@ public Door(boolean isOpen) {
     this.isOpen = isOpen;
 }
 
-public boolean isOpen() {
+public boolean getdoorstatus() {
     return isOpen;
 }
 
-public void setState(boolean state) {
-    this.isOpen = state;
-}
 public void open() {
 
     isOpen = true;
