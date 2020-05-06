@@ -11,6 +11,8 @@ package Model;
  */
 public class Maintainance_System {
     
-    public void GetEmergencyRequest();
+    public void GetEmergencyRequest(){
+     System.out.println("Emergency Request Recieved!");
+    };
     
 }
