@@ -19,4 +19,12 @@ public class powersource {
     {
         return state;
     }
+    public void onstart()
+    {
+        
+    }
+    public void onstop()
+    {
+        
+    }
 }
