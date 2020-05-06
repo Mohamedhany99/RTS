@@ -19,12 +19,14 @@ public class motor {
     {
         return state;
     }
-    public void elevator_down()
+    public int elevator_down(int floors)
     {
-
+        this.floornum-=floors;
+        return floornum;
     }
-    public void elevator_up()
+    public int elevator_up(int floors)
     {
-
+        this.floornum+=floors;
+        return floornum;
     }
 }
