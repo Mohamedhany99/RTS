@@ -11,6 +11,7 @@ package Model;
  */
 public class motor {
     private boolean state;
+    private int floornum;
     public motor(boolean st)
     {
         this.state=st;
