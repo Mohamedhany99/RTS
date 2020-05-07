@@ -12,15 +12,15 @@ package model;
 public class floor_button {
     
     private int floor_numb;
-    private final boolean direation;
+    private final boolean direction;
     
     public floor_button(boolean Floor)
     {
-        this.direation=Floor;
+        this.direction=Floor;
     }
     public boolean getmotorstate()
     {
-        return direation;
+        return direction;
     }
     
    
